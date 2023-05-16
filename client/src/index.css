@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arizonia&family=Quicksand:wght@300&family=Signika&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: white;
+  --secondary-color: #305dbf;
+  /* --secondary-color: black; */
+
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Alex Brush", cursive;
+  --heading-font: "Arizonia", cursive;
+  --Item-font: "Signika", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+  font-family: var(--primary-font);
+}

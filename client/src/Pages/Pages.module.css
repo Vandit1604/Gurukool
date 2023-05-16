@@ -1,0 +1,14 @@
+.Section {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.HomePage {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.Dashboard {
+  background-color: rgb(236, 244, 255);
+}

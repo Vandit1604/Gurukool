@@ -1,0 +1,11 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .Form {
+    width: 95%;
+  }
+}

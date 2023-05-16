@@ -1,0 +1,51 @@
+.Hamburger {
+  width: 40px;
+  height: 50%;
+  flex-direction: column;
+  margin: 0px 10px;
+  z-index: 200;
+  cursor: pointer;
+}
+.Line {
+  width: 90%;
+  height: 2px;
+  background-color: white;
+  margin: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.ActiveHam .Line:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+  -webkit-transform: translateY(10px) rotate(45deg);
+  -moz-transform: translateY(10px) rotate(45deg);
+  -ms-transform: translateY(10px) rotate(45deg);
+  -o-transform: translateY(10px) rotate(45deg);
+}
+.ActiveHam .Line:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-50px);
+  -webkit-transform: translateX(-50px);
+  -moz-transform: translateX(-50px);
+  -ms-transform: translateX(-50px);
+  -o-transform: translateX(-50px);
+  animation: animateLine 0.2s linear;
+  -webkit-animation: animateLine 0.2s linear;
+}
+.ActiveHam .Line:nth-child(3) {
+  transform: translateY(-14px) rotate(-45deg);
+  -webkit-transform: translateY(-14px) rotate(-45deg);
+  -moz-transform: translateY(-14px) rotate(-45deg);
+  -ms-transform: translateY(-14px) rotate(-45deg);
+  -o-transform: translateY(-14px) rotate(-45deg);
+}
+@keyframes animateLine {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

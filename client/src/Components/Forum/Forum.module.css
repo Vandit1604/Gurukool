@@ -1,0 +1,165 @@
+.Forum {
+  flex-direction: column;
+}
+.TopBar {
+  padding: 10px 0px;
+  justify-content: space-between;
+  height: 80px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin: 20px auto;
+}
+.Form {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+.Label {
+  margin: 30px auto;
+  width: 100%;
+}
+.TextArea {
+  height: 50vh;
+  width: 98%;
+  padding: 10px;
+}
+.ImageBox {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.ImageBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Name {
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.LabelBox {
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+.LabelBox h3 {
+  margin: 20px auto;
+}
+.Label {
+  margin: 0px 10px;
+  width: fit-content;
+}
+.Wrap {
+  flex-wrap: wrap;
+}
+.Btn {
+  background-color: var(--secondary-color);
+  color: white;
+  margin: 20px auto;
+}
+.QuestionCard {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+  position: relative;
+  flex-direction: column;
+  background-color: rgba(37, 37, 37, 0.068);
+  width: 80%;
+  min-height: 30vh;
+  margin: 20px auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+.Question_Top {
+  padding: 0px 10px;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  justify-content: space-between;
+}
+.Question_Top div {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Question_Box {
+  padding: 20px auto;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  width: 100%;
+  min-height: 150px;
+}
+.Question_Comments {
+  background-color: white;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 20px;
+  flex-direction: column;
+}
+.Question_AddComment {
+  border-top: 1px solid rgba(0, 0, 0, 0.199);
+  background-color: white;
+  width: 100%;
+  height: 150px;
+}
+.ImageBox_Comment {
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.ImageBox_Comment img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.Name_Comment {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.Comment {
+  margin: 10px 0px;
+}
+.Label_Box {
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-top: 1px solid rgba(0, 0, 0, 0.089);
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.Label {
+  width: fit-content;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .TopBar {
+    width: 95%;
+  }
+  .Form {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  .QuestionCard {
+    width: 90%;
+  }
+}

@@ -1,0 +1,35 @@
+.MessageBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Message {
+  font-weight: bolder;
+  background-color: rgba(119, 119, 119, 0.76);
+  color: white;
+  max-width: 500px;
+  margin: 5px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+}
+.ImageBox {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.ImageBox img {
+  width: 30px;
+  object-fit: cover;
+}

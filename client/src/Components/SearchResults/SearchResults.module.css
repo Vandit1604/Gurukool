@@ -1,0 +1,53 @@
+.Results {
+  padding: 40px 0px;
+  margin: 10px auto;
+  width: 95%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 0px 3px black;
+}
+.ResultBox {
+  width: 90%;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 10px 0px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.ResultBox:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+.ImageBox {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.ImageBox img {
+  position: relative;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.Name {
+  margin: 0px 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}

@@ -1,0 +1,30 @@
+.InputBox {
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px;
+}
+.Labels {
+  text-align: left;
+  width: 20%;
+}
+.Input {
+  padding: 0px 5px;
+  width: 80%;
+  height: 50px;
+  margin: 10px auto;
+}
+@media screen and (max-width: 700px) {
+  .InputBox {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+  }
+  .Labels {
+    width: 90%;
+    font-size: 15px;
+  }
+  .Input {
+    width: 100%;
+  }
+}

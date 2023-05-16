@@ -1,0 +1,6 @@
+.Footer {
+  background-color: var(--secondary-color);
+  height: 40vh;
+  width: 100%;
+  color: white;
+}

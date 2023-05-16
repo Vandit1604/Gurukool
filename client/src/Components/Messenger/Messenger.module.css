@@ -1,0 +1,116 @@
+.Messenger {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.Messenger_Left {
+  background-color: rgb(246, 249, 253);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh;
+  width: 25%;
+  overflow: auto;
+}
+.Messenger_Left_Top {
+  padding-top: 20px;
+  position: sticky;
+  top: 0px;
+  height: 80px;
+  background-image: linear-gradient(to bottom, white 70%, white, transparent);
+  z-index: 10;
+}
+.Messenger_Left_Wrapper {
+  width: 100%;
+}
+.Messenger_Main {
+  height: 90vh;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.342);
+}
+.Main_TopBar {
+  width: 98%;
+  height: 6%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Main_ImageBox {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.Main_ImageBox img {
+  position: relative;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.Main_Name {
+  margin: 0px 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.Chats {
+  height: 80%;
+  width: 95%;
+  padding: 10px;
+  overflow: auto;
+}
+.InputBox {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.InputBox input {
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+}
+.InputBox button {
+  width: 15%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+.SearchResults {
+  background-color: aliceblue;
+}

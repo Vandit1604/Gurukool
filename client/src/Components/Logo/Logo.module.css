@@ -1,0 +1,120 @@
+.Heading {
+  font-weight: bolder;
+  position: relative;
+  font-size: 32px;
+  width: 10vw;
+  font-family: var(--heading-font);
+}
+.Heading_icon {
+  font-size: 28px;
+  transform: rotate(20deg);
+  position: absolute;
+  top: -11px;
+  right: -2px;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  animation: animate_cap 0.5s linear;
+  -webkit-animation: animate_cap 0.5s linear;
+}
+@keyframes animate_cap {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: -13px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .Heading {
+    width: 20%;
+  }
+  .Heading_icon {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Heading {
+    width: 30%;
+  }
+  .Heading_icon {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Heading {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1268px) {
+  .Heading_icon {
+    right: 35px;
+  }
+}
+@media screen and (max-width: 1158px) {
+  .Heading_icon {
+    right: 25px;
+  }
+}
+@media screen and (max-width: 1062px) {
+  .Heading_icon {
+    right: 16px;
+  }
+}
+@media screen and (max-width: 988px) {
+  .Heading_icon {
+    right: 12px;
+  }
+}
+@media screen and (max-width: 947px) {
+  .Heading_icon {
+    right: 7px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .Heading_icon {
+    right: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Heading_icon {
+    right: 10%;
+  }
+}
+@media screen and (max-width: 683px) {
+  .Heading_icon {
+    right: 4%;
+  }
+}
+@media screen and (max-width: 594px) {
+  .Heading_icon {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .Heading_icon {
+    right: -8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Heading_icon {
+    right: 15%;
+  }
+}
+@media screen and (max-width: 463px) {
+  .Heading_icon {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 444px) {
+  .Heading_icon {
+    right: 10%;
+  }
+}
+@media screen and (max-width: 411px) {
+  .Heading_icon {
+    right: 7%;
+  }
+}

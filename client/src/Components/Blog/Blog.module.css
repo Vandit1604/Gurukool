@@ -1,0 +1,153 @@
+.TopBar {
+  padding: 20px 0px;
+  justify-content: space-between;
+  height: 100px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  margin: 20px auto 0px auto;
+}
+.ImageBox {
+  object-position: top;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.ImageBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.Name {
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.Blog {
+  flex-direction: column;
+}
+.BlogBox {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 80%;
+  min-height: 70vh;
+  margin: 30px auto;
+}
+.TextArea {
+  height: 50vh;
+  width: 98%;
+  padding: 10px;
+}
+.LabelBox {
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+.LabelBox h3 {
+  margin: 20px auto;
+}
+.Label {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  width: fit-content;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.Btn {
+  width: 100%;
+  padding: 10px 30px;
+  margin: 30px auto;
+  background-color: var(--secondary-color);
+  color: white;
+}
+.UploadedImageBox {
+  width: 90%;
+  object-fit: contain;
+  object-position: center;
+  height: 500px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.Main_Box {
+  padding: 30px 10px;
+  width: 90%;
+  min-height: 100vh;
+}
+.Main_Box_Image {
+  width: 80vw;
+  height: 70vh;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  object-position: top;
+}
+.Main_Box_Image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.Main_Title {
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+.Main_Detail {
+  width: 100%;
+  justify-content: space-between;
+}
+.EditBox {
+  justify-content: flex-end;
+  width: 100%;
+}
+.EditBox i {
+  cursor: pointer;
+  margin: 10px 20px;
+  color: var(--secondary-color);
+  font-size: 20px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.EditBox i:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+@media screen and (max-width: 700px) {
+  .TopBar {
+    width: 95%;
+  }
+  .Blog {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  .BlogBox {
+    width: 90%;
+  }
+}

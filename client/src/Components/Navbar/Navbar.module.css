@@ -1,0 +1,79 @@
+.Navbar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: var(--primary-font);
+  justify-content: space-between;
+  z-index: 10000;
+}
+
+.Auth_Buttons {
+  width: 300px;
+  justify-content: space-evenly;
+}
+.Button {
+  width: 100px !important;
+  margin: 0px 15px;
+}
+.Nav_Box {
+  width: 30vw;
+  justify-content: space-between;
+}
+.SideBar {
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.Backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(2, 2, 2, 0.384);
+  z-index: 50;
+}
+.UserPoints {
+  margin-right: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bolder;
+  border: 2px solid white;
+  padding: 5px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 200;
+}
+.Wallet {
+  width: 130px;
+}
+.UserPoints i {
+  margin: 0px 10px;
+}
+@media screen and (max-width: 1000px) {
+  .SideBar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .SideBar {
+    width: 85%;
+  }
+}

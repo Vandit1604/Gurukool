@@ -1,0 +1,9 @@
+FROM node:16
+WORKDIR /app/
+COPY package.json .
+RUN npm install
+COPY . .
+EXPOSE 8080
+ENV DB_URL=mongodb://localhost:27017/gurukool-local
+ENV TOKEN_KEY=1234qwertyuio23456789
+CMD [ "npm", "start" ]

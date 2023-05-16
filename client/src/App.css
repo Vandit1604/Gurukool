@@ -1,0 +1,11 @@
+.Link {
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+h1 {
+  font-size: 30px;
+}
+.margin_top {
+  margin: 50px 40px;
+}
